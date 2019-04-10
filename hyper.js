@@ -55,6 +55,10 @@ module.exports = {
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
+    // base16: {
+    //   scheme: 'atelier',
+    // },
+
     colors: {
       black: '#000000',
       red: '#ff0000',
@@ -113,9 +117,11 @@ module.exports = {
   plugins: [
     // 'hypercwd',
     'hyperlinks',
-    'hyperterm-gruvbox',
+    // 'hyperterm-gruvbox',
     // 'hyperterm-gruvbox-dark',
     // 'hyperterm-atom-dark',
+    // 'shades-of-purple-hyper',
+    'hypersixteen',
   ],
 
   // in development, you can create a directory under
